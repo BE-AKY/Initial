@@ -1,0 +1,11 @@
+	System.out.println(bmiCalculator(180, 65));
+		//the numbers 180 & 65 can be changed to affect the end result
+    }
+
+    public static double bmiCalculator(double pounds, double height){
+        
+    	double bmiNumber = 703;
+
+        double bmi = (pounds / Math.pow(height, 2)) * bmiNumber;
+
+        return bmi;		
